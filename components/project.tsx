@@ -4,12 +4,18 @@ import { useRef } from "react";
 import { projectsData } from "@/lib/data";
 import Image from "next/image";
 import { motion, useScroll, useTransform } from "framer-motion";
+import { HiOutlineArrowUpRight } from "react-icons/hi2";
+import Link from "next/link";
+
+
 
 type ProjectProps = (typeof projectsData)[number];
 
 export default function Project({
   title,
   description,
+  liveSide,
+  gitHub,
   tags,
   imageUrl,
 }: ProjectProps) {
@@ -36,6 +42,10 @@ export default function Project({
           <p className="mt-2 leading-relaxed text-gray-700 dark:text-white/70">
             {description}
           </p>
+          <div className="flex gap-4 my-2">
+          <Link href={liveSide} target="_blank" className="flex gap-1 items-center bg-white/[0.7] border border-black px-3 py-1 text-[0.7rem] uppercase tracking-wider text-black rounded-full dark:black/70 dark:bg-white/40 hover:scale-110 transition">Live Side<span><HiOutlineArrowUpRight/></span></Link>
+          <Link href={gitHub} target="_blank" className="flex gap-1 items-center bg-white/[0.7] border border-black px-3 py-1 text-[0.7rem] uppercase tracking-wider text-black rounded-full dark:black/70 dark:bg-white/40 hover:scale-110 transition">GitHub<span><HiOutlineArrowUpRight/></span></Link>
+          </div>
           <ul className="flex flex-wrap mt-4 gap-2 sm:mt-auto">
             {tags.map((tag, index) => (
               <li
