@@ -24,7 +24,7 @@ export const links = [
     hash: "#skills",
   },
   {
-    name: "Experience",
+    name: "Edu & Exp",
     hash: "#experience",
   },
   {
@@ -46,7 +46,7 @@ export const experiencesData = [
     title: "Intern Software Engineer",
     location: "Clancodes Lab",
     description:
-      "I worked as a full developer for 2 months. Focused tech stacks are NextJs, ReactJs, ExpressJs, NodeJs and DynamoDB",
+      "I worked as a full stack developer for 2 months. Focused tech stacks are NextJs, ReactJs, ExpressJs, NodeJs and DynamoDB",
     icon: React.createElement(CgWorkAlt),
     date: "2023 - Present",
   },
