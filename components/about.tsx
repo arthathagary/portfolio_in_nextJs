@@ -19,18 +19,17 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-      Passionate Full-Stack Developer with a strong foundation in front-end technologies, including HTML, CSS, and JavaScript. Experienced in building dynamic and responsive user interfaces using React, Tailwind CSS, Material-UI (MUI), Bootstrap and Proficient in NextJs. 
-
-Currently, I am expanding my skill set in back-end development with a focus on NodeJs, ExpressJs, and MongoDB.
-
-I am constantly staying updated with the latest industry trends and technologies, ensuring that I can deliver cutting-edge solutions that meet modern standards. 
-
-      </p>
-
-      <p>
-      Collaborative by nature, I thrive in team environments and enjoy working with cross-functional teams to bring ideas to life.
-
-If you are looking for a Full-Stack Developer who can deliver exceptional web applications with a focus on both front-end aesthetics and back-end functionality, let's connect and discuss how I can contribute to your projects.
+        As a Software Engineer , I applied my strong foundation in front-end
+        technologies, such as HTML, CSS, and JavaScript, to create dynamic and
+        responsive user interfaces using React, Tailwind CSS, Material-UI (MUI),
+        Bootstrap, Shadcn, RadixUI, MantineUI and Next.js. I also leveraged my
+        proficiency in back-end development, particularly in Node.js,
+        Express.js, and MongoDB, mySql, to seamlessly bridge the gap between
+        front-end and back-end development. I am currently pursuing a BS degree
+        in Software Engineering. I am passionate about crafting exceptional web
+        applications, paying equal attention to front-end aesthetics and
+        back-end functionality. I thrive in group settings and enjoy working
+        with cross-functional teams to bring creative ideas to life.
       </p>
     </motion.section>
   );
